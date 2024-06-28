@@ -1,0 +1,5 @@
+<h1>Main Component</h1>
+<p>Info: {{ mainInfo }}</p>
+<button (click)="updateMainInfo()">Update Main Info</button>
+
+<app-sub [subInfo]="mainInfo"></app-sub>
